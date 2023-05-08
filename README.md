@@ -15,3 +15,7 @@
 - sys.path.append()函数的使用
 > 由于打包成pywebview以后，或者部署前后端到云端，会出现相对路径的错误，因此使用此函数
 > 顺便了解以下pprint(Data Pretty Print)
+
+
+## FileDownloadUtil
+- js获取文件，封装到request body通过fetch传到后端，通过flask save保存到本地
